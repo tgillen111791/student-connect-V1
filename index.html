@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en" >
+<head>
+  <meta charset="utf-8">
+  <title>Student Connect</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/app.css">
+
+ 
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+  
+  <script src="http://code.angularjs.org/1.2.10/angular.js"></script>
+  <script src="http://code.angularjs.org/1.2.10/angular-route.js"></script>
+  <script src="student.js"></script>
+
+
+
+</head>
+<body>
+<div ng-app="myApp">
+  <div class="container">
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle " data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand active" href="#">Student<span class="glyphicon glyphicon-flash yellow"></span>Connect</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#/joey-bachand">Joey Bachand</a></li>
+            <li><a href="#/tyler-gillen">Tyler Gillen</a></li>
+            <li><a href="#/jacob-cornwell">Jacob Cornwell</a></li>
+            <li><a href="#/caleb-sanders">Caleb Sanders</a></li>
+            <li><a href="#/brooke-b">Brooke B</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    <div class="starter-template">
+        <h1>Wichita State Student<span class="glyphicon glyphicon-flash yellow"></span>Connect</h1>
+    </div>
+    <ng-view></ng-view>
+    </div>
+
+
+  </div>
+  <script data-require="jquery@*" data-semver="2.0.3" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script data-require="bootstrap@*" data-semver="3.0.3" src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+  <!--
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+-->
+</body>
+</html>
