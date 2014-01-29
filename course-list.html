@@ -1,0 +1,8 @@
+  <div ng-controller="CourseListCtrl">
+  	<div class="courses">
+        <div class="well" ng-repeat="course in courses | filter:filt">
+          <h2><a href="#/{{user.user}}/{{course.slug}}">{{course.course}}</a></h2>
+          <p>{{course.prof}}</p>
+        </div>
+	</div>
+</div>

@@ -1,0 +1,30 @@
+
+<div ng-controller="FirstCtrl">
+		<h1>{{ data.user }}</h1>
+	<div ng-controller="FirstCtrl">
+    <div class="row">
+  <div class="col-lg-6">
+    <div class="input-group">
+      <input type="text" class="form-control" ng-model="data.message">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button" ng-click="postMsg()"><a href="/#/{{data.user}}/{{data.course}}">Connect!</a></button>
+      </span>
+      
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+    </div>
+		<h1>{{ data.message }}</h1>
+
+	</div>
+  <div ng-controller="MessageListCtrl">
+      <div class="well" ng-repeat="msg in messages">
+          <h2><a href="#/{{msg.user}}">{{msg.user}}</a></h2>
+            <span class="pull-right">
+              <p class="date">{{msg.time}}</p>
+            </span>
+          <p>{{msg.message}}</p>
+      </div>
+</div>
+
+
+
