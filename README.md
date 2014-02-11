@@ -1,4 +1,4 @@
-This is the prototype that we showed at Exploration Place. 
+This is the prototype that we showed at Exploration Place and will be the basis of v1 of our app. 
 
 An easy way to run this app on Linux or OSX is to open up the command
 terminal and navigate to the correct directory. Type the command
